@@ -1,0 +1,25 @@
+[
+  {
+    "name": "Alida Bicker",
+    "sets": ["Adamlink","Wikidata","Amsterdam Museum","RKD","GeoNames"],
+    "as-text": [
+    	"This Adamlink Alida Bicker is the same as this Wikidata Alida Bicker",
+		"This Wikidata Alida Bicker is the daughter of this Wikidata Andries Bicker",
+		"This Amsterdam Museum portrait portrays the Adamlink Alida Bicker",
+		"This Amsterdam Museum portrait is made by the RKD artist Joachim von Sandrart",
+		"The RKD artist Joachim von Sandrart was born in the GeoNames place Frankfurt am Main"
+    ],
+    "as-triples": [
+    	"<https://adamlink.nl/person/bicker-alida/2944> owl:sameAs wd:Q48114990",
+		"wd:Q48114990 wdt:P22 wd:Q434290",
+		"<http://hdl.handle.net/11259/collection.37911> dc:subject <https://adamlink.nl/person/bicker-alida/2944>",
+		"<http://hdl.handle.net/11259/collection.37911> dc:creator rkdartists:69604",
+		"rkdartists:69604 schema:birthPlace geonames:2925533"
+	]
+  }
+]
+
+
+
+
+
