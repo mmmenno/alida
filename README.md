@@ -1,3 +1,26 @@
-# ALiDa
+# alida
 
-The Amsterdam Linked Data cloud (ALiDa) shows linked datasets relevant to the history of Amsterdam. See it yourself on [alida.amsterdamtimemachine.nl/](https://alida.amsterdamtimemachine.nl/).
+## Project setup
+```
+npm install
+```
+
+### Compiles and hot-reloads for development
+```
+npm run serve
+```
+
+### Compiles and minifies for production
+```
+npm run build
+```
+
+### Run your tests
+```
+npm run test
+```
+
+### Lints and fixes files
+```
+npm run lint
+```

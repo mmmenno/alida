@@ -1,0 +1,128 @@
+[
+  {
+    "name": "BAG",
+    "url": "https://bag.basisregistraties.overheid.nl/",
+    "description": "Basisadministratie Adressen en Gebouwen, al the buildings in The Netherlands, with geometries, buildingyears, addresses, etc.",
+    "outgoinglinks": [],
+    "tags": [
+      "geography"
+    ]
+  },
+  {
+    "name": "Wikidata",
+    "url": "https://www.wikidata.org/",
+    "description": "Data on almost anything and a hub to data elsewhere",
+    "outgoinglinks": [
+      "BAG",
+      "RKD",
+      "Ecartico",
+      "Verdwenen Gebouwen"
+    ],
+    "tags": [
+      "geography",
+      "persons",
+      "organizations",
+      "events",
+      "cho"
+    ]
+  },
+  {
+    "name": "Ecartico",
+    "url": "http://www.vondel.humanities.uva.nl/ecartico/",
+    "description": "Over 30.000 artists and their connections in 17th-century Amsterdam",
+    "outgoinglinks": [
+      "Wikidata",
+      "RKD"
+    ],
+    "tags": [
+      "persons"
+    ]
+  },
+  {
+    "name": "RKD",
+    "url": "https://rkd.nl/",
+    "description": "Rijksbureau voor Kunsthistorische Documentatie, data on artists born, working or collected in The Netherlands",
+    "outgoinglinks": [
+      "AAT"
+    ],
+    "tags": [
+      "persons",
+      "organizations",
+      "cho"
+    ]
+  },
+  {
+    "name": "Adamlink",
+    "url": "https://adamlink.nl/",
+    "description": "Combined Amsterdam museum and archival collections, includes reference data on streets, buildings, persons and districts",
+    "outgoinglinks": [
+      "BAG",
+      "Ecartico",
+      "RKD",
+      "Wikidata",
+      "AAT",
+      "Verdwenen Gebouwen"
+    ],
+    "tags": [
+      "geography",
+      "persons",
+      "organizations",
+      "cho"
+    ]
+  },
+  {
+    "name": "Verdwenen Gebouwen",
+    "url": "http://verdwenengebouwen.nl/",
+    "description": "No longer existing buildings depicted in heritage collections",
+    "outgoinglinks": [
+      "Wikidata",
+      "AAT"
+    ],
+    "tags": [
+      "geography"
+    ]
+  },
+  {
+    "name": "GeoNames",
+    "url": "https://www.geonames.org/",
+    "description": "Geographical names around the globe and elsewhere",
+    "outgoinglinks": [],
+    "tags": [
+      "geography"
+    ]
+  },
+  {
+    "name": "AAT",
+    "url": "http://vocab.getty.edu/aat/",
+    "description": "Getty's Art & Architecture Thesaurus describes museum objects, buildings and more",
+    "outgoinglinks": [],
+    "tags": [
+      "vocabulary"
+    ]
+  },
+  {
+    "name": "Amsterdam Museum",
+    "url": "https://www.amsterdammuseum.nl/open-data",
+    "description": "Over 80.000 objects on Amsterdam history, collected from the 16th-century onwards.",
+    "outgoinglinks": [
+      "Wikidata",
+      "BAG",
+      "RKD",
+      "Adamlink"
+    ],
+    "tags": [
+      "cho"
+    ]
+  },
+  {
+    "name": "Rijksmuseum",
+    "url": "https://www.rijksmuseum.nl/nl/api",
+    "description": "Artworks and lots of objects related to the history of Amsterdam",
+    "outgoinglinks": [
+      "AAT"
+    ],
+    "tags": [
+      "cho"
+    ]
+  }
+]
