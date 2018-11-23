@@ -1,9 +1,0 @@
- <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"
-    class="logo" width="600" height="100" viewBox="-300 -50 600 100">
-  <line x1="-1000" y1="0" x2="1000" y2="0"
-    style="stroke: #5CBD70; stroke-width: 7px; mix-blend-mode: screen;"/>
-  <line x1="-150" y1="0" x2="150" y2="0"
-    style="stroke: #0099CD; stroke-width: 7px; mix-blend-mode: screen; transform: rotate(10deg);"/>
-  <line x1="-150" y1="0" x2="150" y2="0"
-    style="stroke: #EE275F; stroke-width: 7px; mix-blend-mode: screen; transform: rotate(-10deg);"/>
-</svg>

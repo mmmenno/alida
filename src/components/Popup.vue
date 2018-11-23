@@ -5,6 +5,17 @@
     <div>
     {{ dataset.description }}
     </div>
+    <div>
+      <span>Tags: </span>
+      <ul class="tags">
+        <li v-for="tag in dataset.tags" :key="tag">
+          <span class="tag">{{ tag }}</span>
+        </li>
+      </ul>
+    </div>
+    <div>
+      ⟶ <a :href="dataset.url">Visit dataset</a>
+    </div>
   </div>
 </template>
 
@@ -62,25 +73,7 @@ export default {
   margin-top: 0;
 }
 
-/* .interactive-architecture .interactive-architecture-popup {
-  font-size: 90%;
+.popup div:not(:last-child) {
+  margin-bottom: 1em;
 }
-
-.interactive-architecture .interactive-architecture-popup-contents {
-  max-height: 400px;
-  overflow: auto;
-	padding-bottom: 0;
-	padding: 1em;
-}
-
-.interactive-architecture .interactive-architecture-popup-link {
-	padding: 5px 20px;
-	background-color: #68B400;
-}
-
-.interactive-architecture .interactive-architecture-popup-link a,
-.interactive-architecture .interactive-architecture-popup-link a:hover {
-	color: black;
-} */
-
 </style>
