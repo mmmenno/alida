@@ -21,9 +21,8 @@
     "tags": [
       "geography",
       "persons",
-      "organizations",
       "events",
-      "cho"
+      "heritage objects"
     ]
   },
   {
@@ -47,8 +46,7 @@
     ],
     "tags": [
       "persons",
-      "organizations",
-      "cho"
+      "heritage objects"
     ]
   },
   {
@@ -66,8 +64,7 @@
     "tags": [
       "geography",
       "persons",
-      "organizations",
-      "cho"
+      "heritage objects"
     ]
   },
   {
@@ -111,7 +108,7 @@
       "RKD"
     ],
     "tags": [
-      "cho"
+      "heritage objects"
     ]
   },
   {
@@ -133,7 +130,7 @@
       "AAT"
     ],
     "tags": [
-      "cho"
+      "heritage objects"
     ]
   }
 ]
