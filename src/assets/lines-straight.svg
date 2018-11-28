@@ -1,0 +1,9 @@
+ <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"
+    class="logo" width="600" height="20" viewBox="-300 -10 600 20">
+  <line x1="-200" y1="0" x2="-100" y2="0"
+    style="stroke: #5CBD70; stroke-width: 7px;"/>
+  <line x1="-50" y1="0" x2="50" y2="0"
+    style="stroke: #0099CD; stroke-width: 7px;"/>
+  <line x1="100" y1="0" x2="200" y2="0"
+    style="stroke: #EE275F; stroke-width: 7px;"/>
+</svg>
