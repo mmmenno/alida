@@ -1,15 +1,15 @@
 {
   "name": "alida",
-  "version": "0.1.0",
+  "version": "1.0.0",
   "private": true,
   "scripts": {
     "serve": "vue-cli-service serve",
     "build": "vue-cli-service build",
-    "lint": "vue-cli-service lint"
+    "lint": "vue-cli-service lint",
+    "deploy": "./deploy.sh"
   },
   "dependencies": {
     "axios": "^0.18.0",
-    "roughjs": "^2.2.5",
     "viz.js": "^2.0.0",
     "vue": "^2.5.17"
   },
