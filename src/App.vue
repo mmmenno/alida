@@ -36,7 +36,7 @@ a, a:visited {
   color: #0099CD;
 }
 
-h1, h2, h3, h4 {
+h1 {
   text-align: center;
 }
 

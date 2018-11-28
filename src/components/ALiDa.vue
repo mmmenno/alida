@@ -1,7 +1,7 @@
 <template>
   <div class="alida" v-on:click="showPopup(null, $event)">
     <section class="graphics">
-      <img class="logo" id="logo-atm" :src="`${require('@/assets/amsterdam-time-machine.svg')}`" />
+      <!-- <img class="logo" id="logo-atm" :src="`${require('@/assets/amsterdam-time-machine.svg')}`" /> -->
       <!-- <img id="logo-alida" :src="`${require('@/assets/alida.svg')}`" /> -->
       <svg version="1.1" class="logo" id="logo-alida" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
 	      viewBox="0 0 421.1 204" style="enable-background:new 0 0 421.1 204;" xml:space="preserve">
@@ -451,12 +451,12 @@ export default {
 }
 
 .graphics {
-  width: 1200px;
+  width: 1400px;
   max-width: 100%;
 
   display: flex;
-  flex-direction: row;
-  align-items: flex-start;
+  flex-direction: column;
+  align-items: center;
   flex-wrap: wrap;
   justify-content: center;
 }
@@ -466,28 +466,21 @@ export default {
 }
 
 .graphics .graph {
-  width: 700px;
+  width: 800px;
   max-width: 100%;
 }
 
 #logo-alida {
-  order: 2;
   isolation: isolate;
 }
 
 .st0{fill:#5CBD70;}
 .st1{fill:#0099CD;}
 .st2{fill:#EE275F;}
-.st3{fill:#FFFFFF;stroke:#231F20;stroke-linecap:round;stroke-linejoin:round;}
+.st3{fill:#FFFFFF; stroke-width: 3px; stroke:#231F20;stroke-linecap:round;stroke-linejoin:round;}
 
 .st0, .st1, .st2 {
   mix-blend-mode: screen;
-}
-
-@media only screen and (max-width: 1115px) {
-  #logo-alida {
-    order: 0;
-  }
 }
 
 @media only screen and (max-width: 600px) {
