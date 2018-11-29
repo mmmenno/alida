@@ -64,7 +64,7 @@
   {
     "name": "Adamlink",
     "url": "https://adamlink.nl/",
-    "description": "Combined Amsterdam museum and archival collections, includes reference data on streets, buildings, persons and districts",
+    "description": "Street Gazetteer and reference data on buildings, persons and districts",
     "outgoinglinks": [
       "BAG",
       "Ecartico",
@@ -75,8 +75,7 @@
     ],
     "tags": [
       "geography",
-      "persons",
-      "heritage objects"
+      "persons"
     ]
   },
   {
@@ -126,7 +125,7 @@
   {
     "name": "HisGis",
     "url": "http://www.hisgis.nl/hisgis/gewesten/amsterdam/amsterdam",
-    "description": "Amsterdam 19th-century addresses and 'verpondingsnummers'",
+    "description": "Amsterdam 19th and early 20th-century addresses",
     "outgoinglinks": [
       "Adamlink"
     ],
