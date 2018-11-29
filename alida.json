@@ -26,6 +26,18 @@
     ]
   },
   {
+    "name": "OnStage",
+    "url": "http://www.vondel.humanities.uva.nl/onstage/",
+    "description": "The repertoire, performances, popularity and revenues of the cultural program in Amsterdam’s public theatre during the period 1637 - 1772.",
+    "outgoinglinks": [
+      "Ecartico",
+      "Wikidata"
+    ],
+    "tags": [
+      "persons"
+    ]
+  },
+  {
     "name": "Ecartico",
     "url": "http://www.vondel.humanities.uva.nl/ecartico/",
     "description": "Over 30.000 artists and their connections in 17th-century Amsterdam",
