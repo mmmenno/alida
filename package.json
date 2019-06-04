@@ -9,15 +9,15 @@
     "deploy": "./deploy.sh"
   },
   "dependencies": {
-    "axios": "^0.18.0",
-    "viz.js": "^2.0.0",
-    "vue": "^2.5.17"
+    "axios": "^0.18.1",
+    "viz.js": "^2.1.2",
+    "vue": "^2.6.10"
   },
   "devDependencies": {
-    "@vue/cli-plugin-babel": "^3.0.5",
-    "@vue/cli-plugin-eslint": "^3.0.5",
-    "@vue/cli-service": "^3.0.5",
-    "vue-template-compiler": "^2.5.17"
+    "@vue/cli-plugin-babel": "^3.8.0",
+    "@vue/cli-plugin-eslint": "^3.8.0",
+    "@vue/cli-service": "^3.8.0",
+    "vue-template-compiler": "^2.6.10"
   },
   "eslintConfig": {
     "root": true,
